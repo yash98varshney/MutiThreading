@@ -20,8 +20,9 @@ public class way1_using_runnable {
 
         int i=1;
         while(true){
-            System.out.println(i+" world");
+            System.out.println(i+" world");   
             i++;
         }
     }
 }
+ 
