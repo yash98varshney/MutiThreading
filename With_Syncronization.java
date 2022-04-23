@@ -5,7 +5,7 @@ class Mydata1{
         for(int i=0;i<str.length();i++){
             System.out.print(str.charAt(i));
             try{
-               Thread.sleep(100);  
+               Thread.sleep(100);    // if one thread is at sleep than also only one Thread is allowed inside this method other threads will wait to get task complete
             }
             catch(Exception e){
 
