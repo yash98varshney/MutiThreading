@@ -16,7 +16,7 @@ class SharedObject{
         }
         value=v;    // after wait set the value 
         flag=false;          // make flag false so that consumer can use it's method 
-        notify();            // and notify consumer 
+        notify();            // and notify consumer wake up all the threads 
     }
 
     synchronized public int get(){
